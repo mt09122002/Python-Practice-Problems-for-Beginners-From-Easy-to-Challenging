@@ -1,11 +1,11 @@
 # Exercise 2: Calculate the Area of a Circle
 # Description:
-# Write a Python program that calculates the area of a circle based on user input for the radius.
+# Write a Python program that calculates the area of a circle based on the radius.
 
 import math  # Import math module to use math.pi
 
-# Step 1: Ask for the radius of the circle
-radius = float(input("Enter the radius of the circle: "))
+# Step 1: The radius of the circle
+radius = 10
 
 # Step 2: Calculate the area of the circle
 area = math.pi * radius ** 2

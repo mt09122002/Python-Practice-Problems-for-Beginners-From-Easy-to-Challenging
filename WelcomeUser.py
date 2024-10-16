@@ -1,8 +1,8 @@
 # Exercise 1: Welcome the User
-# Description: Write a simple Python program that asks the user for their name and then prints a personalized greeting.
+# Description: Write a simple Python program that prints a personalized greeting with user's name.
 
-# Step 1: Ask for the user's name
-name = input("Enter your name: ")
+# Step 1: User's name
+name = 'Python ID'
 
 # Step 2: Create a greeting message
 greeting = "Welcome, " + name + "!"
