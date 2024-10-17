@@ -1,5 +1,4 @@
-# Exercise 1: Welcome the User
-# Description: Write a simple Python program that prints a personalized greeting with user's name.
+# Write a simple Python program that prints a personalized greeting with user's name.
 
 # Step 1: User's name
 name = 'Python ID'

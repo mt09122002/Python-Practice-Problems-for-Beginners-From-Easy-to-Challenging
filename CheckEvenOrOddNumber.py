@@ -1,12 +1,13 @@
-# Exercise 3: Check if a Number is Even or Odd
-# Description:
-# Write a Python program that checks whether a number entered is even or odd.
+# Write a Python program that checks if the string entered by the user is a palindrome (a word that reads the same forward and backward).
 
-# Step 1: The number
-number = 10
+# Step 1: Ask the user to input a string
+user_string = "Python ID - Online Python Compiler"
 
-# Step 2: Check if the number is even or odd
-if number % 2 == 0:
-    print(f"{number} is an even number.")
+# Step 2: Normalize the string (remove spaces and convert to lowercase)
+normalized_string = user_string.replace(" ", "").lower()
+
+# Step 3: Check if the string is a palindrome
+if normalized_string == normalized_string[::-1]:
+    print(f"'{user_string}' is a palindrome.")
 else:
-    print(f"{number} is an odd number.")
+    print(f"'{user_string}' is not a palindrome.")
